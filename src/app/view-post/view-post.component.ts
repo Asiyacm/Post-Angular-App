@@ -8,7 +8,6 @@ import { ApiService } from '../api.service';
 })
 export class ViewPostComponent {
 
-
   constructor(private api:ApiService){
 
     api.fetchPost().subscribe(
@@ -18,6 +17,7 @@ export class ViewPostComponent {
       }
     )
   }
+
   post:any=[]
 
 }

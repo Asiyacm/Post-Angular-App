@@ -8,7 +8,8 @@ import { ViewPostComponent } from './view-post/view-post.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NavigationComponent } from './navigation/navigation.component';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 
@@ -38,6 +39,7 @@ const myRoute:Routes=[
     RouterModule.forRoot(myRoute),
     FormsModule,
     HttpClientModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
